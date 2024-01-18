@@ -1,0 +1,36 @@
+body{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.content{
+     width: 350px;
+    height: 400px;
+    display: flex;
+    background-color:azure;
+    flex-direction: column;
+    margin:100px auto;
+    font-size: large;
+    border: 4px solid rgb(236, 243, 243);
+    justify-content: center;
+    padding: 25px;
+    box-shadow: 30px rgb(228, 211, 195);
+    border-radius: 25px;
+   
+}
+.content select ,input , button{
+    height: 35px;
+    margin-top: 7px;
+    border-radius: 10px;
+    border:1px solid rgb(100, 90, 90);
+}
+#id{
+    text-align: center;
+    size: 200px;
+}
+button{
+    width: 70%;
+    margin:10px auto;
+    background-color: rgb(181, 181, 245);
+}
