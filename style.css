@@ -5,8 +5,8 @@ body{
     margin: 0%;
 }
 .content{
-     width: 350px;
-    height: 400px;
+     width:min(60%,350px);
+    height:min(60%,400px);
     display: flex;
     background-color:azure;
     flex-direction: column;
@@ -32,5 +32,6 @@ body{
 button{
     width: 70%;
     margin:10px auto;
-    background-color: rgb(181, 181, 245);
+    background-color: rgb(82, 82, 245);
+    opacity: 0.8;
 }
